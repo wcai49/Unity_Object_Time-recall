@@ -7,7 +7,7 @@ public class PathSpawner : MonoBehaviour
     public List<Vector3> pathPositions;
     public List<Vector3> pathRotations;
     Rigidbody rb;
-    private float recordFrequency = 0.01f;
+    private float recordFrequency = 0.05f;
     private float recordTimer;
     private float recallMaxTime = 10.0f;
     private float recallTimer;
