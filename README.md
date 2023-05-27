@@ -95,9 +95,19 @@ As it already mentioned in the comment:
 ## Future plan?
 ---
 
-Currently, this solution is not perfect. For example, if the quantity of recallable objects is large, the performance has not been tested yet. Also, many awesome features that Nintendo has implemented in the game are not included in this solution, e.g., while the object is in recalling, the path with the object's illustration will be shown.
+Currently, this solution is not perfect. For example, if the quantity of recallable objects is large, the performance has not been tested yet. Also, many awesome features that Nintendo has implemented in the game are not included in this solution, e.g., while the object is in recalling, the path with the object's illusion will be shown.
 
-If you tried my solution and found any bugs, please kindly point it out by adding issues in this repository. I will try my best to fix it.
+- If you tried my solution and found any bugs, please kindly point it out by adding issues in this repository. I will try my best to fix it.
 
-If you are looking forward to any new features, or just want to talk random stuffs about my project, my channel, or anything else, please feel free to contact me. I will be very appreciated. The email address will be found in my [Github Home page](https://github.com/wcai49).
+- If you like the idea, and would like to contribute to this project, please enlist the repository, create your **own branch** by naming like below, then create a **pull request**.
+```
+[user]/[your name]/[feature name in short terms]
 
+// For example,
+user/wcai49/add-recall-path-illusion
+```
+My hope is to let this project be a community project, and we can make it convenient for every game developer to use and let their game be more fun.
+
+- If you are looking forward to any new features, or just want to talk random stuffs about my project, my channel, or anything else, please feel free to contact me. I will be very appreciated. The email address will be found in my [Github Home page](https://github.com/wcai49).
+
+Cheers!
