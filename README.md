@@ -1,12 +1,14 @@
 # Unity Object Time-recall: 'Zelda'-like
 <p align="center">
     <img src="./Figures/bilibili_sc.png" style="width: 800px;" />
-    <div style="font-weight: bold; text-align: center"> 
+    <div align="center"> 
         <p>What up gamers! Thanks all your supports from our last video. </p>
         <p>感谢所有观看过视频的玩家们，感谢你们的时间、点赞、投币、关注，让我的第一次视频尝试获得了超出预期的成果。</p>
     </div>
 </p>
+
 ## Introduction
+
 ---
 
 I have been played **The Legend of Zelda: Tears of the Kingdom** for weeks. I have been thinking about the ablity: Recall, which is a new feature in the game while I was playing the game. I think it is a good idea to implement this feature in Unity. So I made this project. 
@@ -18,7 +20,9 @@ If you think this helps you, please give me a star. Also, I am running my own ch
 However, my content in short term will be all in Mandarin. If you hate to read on subtitles and would like to see me also making videos in English version, please leave comments anywhere you can find me. I will be very appreciated.
 
 ## How to use the project code
+
 ---
+
 #### 1. Get the code
 
 Basically, all you need is the C# code PathSpawner.cs under the this path
@@ -93,6 +97,7 @@ As it already mentioned in the comment:
 - The larger the number is, the more laggy the movement will be, but the List size will be smaller since there will be less points in the List during the certain time period.
 
 ## Future plan?
+
 ---
 
 Currently, this solution is not perfect. For example, if the quantity of recallable objects is large, the performance has not been tested yet. Also, many awesome features that Nintendo has implemented in the game are not included in this solution, e.g., while the object is in recalling, the path with the object's illusion will be shown.
