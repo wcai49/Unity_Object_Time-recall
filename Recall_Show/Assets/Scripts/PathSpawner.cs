@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class PathSpawner : MonoBehaviour
 {
-    public List<Vector3> pathPositions;
-    public List<Vector3> pathRotations;
+    // Record the object's path points with position and rotation
+    // DestPosition and DestRotation are the next destination of the object
+    [SerializeField] private List<Vector3> pathPositions;
+    [SerializeField] private Vector3 destPosition;
+    [SerializeField] private List<Vector3> pathRotations;
+    [SerializeField] private Vector3 destRotation;
     Rigidbody rb;
-    private float recordFrequency = 0.05f;
+
+    // How frequent you want the object to record its path points
+    // The smaller the number, the smoother the movement will be, but the List size needs to be larger
+    // The larger the number, the more laggy the movement will be, but the List size will be smaller
+    // You can manually change the range value to find the best number for your game
+    [Range(0.01f, 1.0f)]
+    [SerializeField] private float recordFrequency;
     private float recordTimer;
+
+    // How long you want the object to store its past path points
+    // If the object stays for a long time, start remove the path points from the begining
     private float recallMaxTime = 10.0f;
     private float recallTimer;
-    [SerializeField] private Vector3 destPosition;
-    [SerializeField] private Vector3 destRotation;
+
+
+    // The max number of path points you want to store
+    // Suggest not to change during playing time
     private int maxPathPoints = 120;
     bool isMoving = false;
     bool isRecalling = false;
