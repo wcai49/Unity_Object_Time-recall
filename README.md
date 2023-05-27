@@ -25,7 +25,7 @@ However, my content in short term will be all in Mandarin. If you hate to read o
 
 #### 1. Get the code
 
-Basically, all you need is the C# code PathSpawner.cs under the this path
+Basically, all you need is the C# code PathSpawner.cs under this path
 
 <p align="center">
 <img src="./Figures/recall_code_path.png" />
